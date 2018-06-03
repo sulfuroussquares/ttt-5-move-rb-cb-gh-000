@@ -9,5 +9,5 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
     input = input.to_i
-    board[(input-1)] = (input-1)
+    board[(input - 1)] = (input - 1)
 end
