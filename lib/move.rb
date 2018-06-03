@@ -9,9 +9,10 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
     input = input.to_i
-    board[(input - 1)] = (input - 1)
+    input = input - 1
 end
 
 def move(array, index, value)
+  array[index] = value
 
 end
